@@ -2,3 +2,7 @@
   ```bash
   $ git config --global user.signingkey 'ssh-ed25519 AAAAC3(...) user@example.com'
   ```
+Alternatively, you can reference your public key file directly using a relative path.
+  ```bash
+  $ git config --global user.signingkey=~/.ssh/id_ed25519.pub
+  ```
